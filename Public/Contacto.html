@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrestaLibros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contenedor Principal -->
+    <div class="container">
+        <!-- Título y Subtítulo -->
+        <header>
+            <h1>PrestaLibros</h1>
+            <h2>Nuestra plataforma de préstamos de libros digitales de forma simple, sencilla y gratuita</h2>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Inicio</a></li>
+    
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Descripción -->
+        <section class="descripcion">
+            <p><h2>Acerca de Prestalibros.com</h2></p>
+            <p>“En nombre de PrestaLibros, creemos que el acceso gratuito a libros electrónicos es una herramienta poderosa para el desarrollo intelectual y cultural de nuestra sociedad. Al ofrecer una vasta colección de títulos accesibles para todos, contribuimos a la educación y fomentamos una comunidad más informada, creativa y preparada, enriqueciendo el futuro de nuestro país.”</p>
+        </section>
+
+        <!-- Formulario de Recepción de Inquietudes -->
+        <section class="formulario">
+            <h3>Si deseas comunicarte con nosotros escribenos</h3>
+            <form id="contactForm" action="/guardar-datos" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="telefono">Teléfono de Contacto:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 PrestaLibros - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

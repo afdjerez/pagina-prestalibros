@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrestaLibros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contenedor Principal titulo -->
+    <div class="container">
+        <!-- Título y Subtítulo -->
+        <header>
+            <h1>PrestaLibros</h1>
+            <h2>Nuestra plataforma de préstamos de libros digitales de forma simple, sencilla y gratuita</h2>
+    <!-- barra de navegacion -->
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Inicio</a></li>
+    
+                </ul>
+            </nav>
+        </header>
+
+        
+        <!-- Formulario de Recepción de credenciales de acceso -->
+        <section class="formulario">
+            <h3>Si deseas comunicarte con nosotros escribenos</h3>
+            <form id="contactForm" action="/guardar-datos" method="POST">
+                <label for="Nodocumento">No documento:</label>
+                <input type="text" id="Nodocumento" name="Nodocumento" required>
+
+                <label for="Contraseña">Contraseña:</label>
+                <input type="Contraseña" id="Contraseña" name="Contraseña" required>
+
+                <label for="Correo">Correo:</label>
+                <input type="Correo" id="Correo" name="Correo" required>
+
+                <button type="Crear">Crear</button>
+            </form>
+        </section>
+    </div>
+
+  
+
+    <footer>
+        <p>&copy; 2024 PrestaLibros - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

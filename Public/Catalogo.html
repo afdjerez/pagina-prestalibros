@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Libros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Catálogo de Libros</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Inicio</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Catálogo -->
+    <section id="catalogo">
+        <h2>Explora Nuestro Catálogo</h2>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar por título, autor, o género...">
+            <button onclick="searchBook()">Buscar</button>
+        </div>
+        <div class="book-list">
+            <div class="book" data-title="El Quijote" data-author="Miguel de Cervantes" data-genre="Clásicos">
+                <img src="Imagenes\quijote.jpg" alt="El Quijote">
+                <h3>El Quijote</h3>
+                <p>Autor: Miguel de Cervantes</p>
+                <p>Género: Clásicos</p>
+                <button>Prestar</button>
+            </div>
+            <div class="book" data-title="Cien Años de Soledad" data-author="Gabriel García Márquez" data-genre="Realismo Mágico">
+                <img src="Imagenes\cienaños.jpg" alt="Cien Años de Soledad">
+                <h3>Cien Años de Soledad</h3>
+                <p>Autor: Gabriel García Márquez</p>
+                <p>Género: Realismo Mágico</p>
+                <button>Prestar</button>
+            </div>
+            <div class="book" data-title="1984" data-author="George Orwell" data-genre="Ciencia Ficción">
+                <img src="Imagenes\1984.jpg" alt="1984">
+                <h3>1984</h3>
+                <p>Autor: George Orwell</p>
+                <p>Género: Ciencia Ficción</p>
+                <button>Prestar</button>
+            </div>
+            <div class="book" data-title="Orgullo y Prejuicio" data-author="Jane Austen" data-genre="Romántico">
+                <img src="Imagenes\prejuicio.jpg" alt="Orgullo y Prejuicio">
+                <h3>Orgullo y Prejuicio</h3>
+                <p>Autor: Jane Austen</p>
+                <p>Género: Romántico</p>
+                <button>Prestar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Libros Para Todos - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="catalogo.js"></script>
+</body>
+</html>
